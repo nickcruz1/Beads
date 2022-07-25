@@ -1,0 +1,23 @@
+hr {
+  transform: rotate(90deg);
+  height: 50px;
+  margin-top: 5rem;
+}
+
+#white, #red, #blue, #green, #gray, #yellow {
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+}
+
+#gray {
+  color: #63666A;
+}
+
+#string {
+  z-index: 1;
+}
+
+#canvas {
+  height: 100vh;
+}
