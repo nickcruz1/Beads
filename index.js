@@ -39,7 +39,10 @@ let blue = () => {
 let green = () => {
   console.log("Green Bead Clicked");
    let canvas = document.querySelector("#canvas");
+   let container = document.querySelector(".container-fluid");
+  
   canvas.style.backgroundColor = "green";
+  container.style.border = "2px solid green";
 }
 
 let gray = () => {
