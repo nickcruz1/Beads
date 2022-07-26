@@ -11,9 +11,11 @@ let reset = () => {
 let white = () => {
   console.log("White Bead Clicked");
   let canvas = document.querySelector("#canvas");
+  let container = document.querySelector(".container-fluid");
   
   canvas.style.border = "20px solid black";
   canvas.style.backgroundColor = "white";
+  container.style.border = "2px solid white";
 }
 
 let red = () => {
