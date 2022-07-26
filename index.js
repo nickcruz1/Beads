@@ -57,6 +57,8 @@ let gray = () => {
 let yellow = () => {
   console.log("Yellow Bead Clicked");
    let canvas = document.querySelector("#canvas");
+   let container = document.querySelector(".container-fluid");
   
   canvas.style.backgroundColor = "yellow";
+  container.style.border = "2px solid yellow";
 }
