@@ -30,7 +30,10 @@ let red = () => {
 let blue = () => {
   console.log("Blue Bead Clicked");
    let canvas = document.querySelector("#canvas");
+   let container = document.querySelector(".container-fluid");
+  
   canvas.style.backgroundColor = "blue";
+  container.style.border = "2px solid blue";
 }
 
 let green = () => {
