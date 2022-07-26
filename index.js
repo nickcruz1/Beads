@@ -21,7 +21,10 @@ let white = () => {
 let red = () => {
   console.log("Red Bead Clicked");
    let canvas = document.querySelector("#canvas");
+   let container = document.querySelector(".container-fluid");
+  
   canvas.style.backgroundColor = "red";
+  container.style.border = "2px solid red";
 }
 
 let blue = () => {
