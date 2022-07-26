@@ -1,3 +1,13 @@
+let reset = () => {
+  let desktop = document.querySelector(".desktop");
+  let canvas = document.querySelector("#canvas");
+  let container = document.querySelector(".container-fluid");
+  
+  canvas.style.border = "";
+  canvas.style.backgroundColor = "";
+  container.style.border = "";
+}
+
 let white = () => {
   console.log("White Bead Clicked");
   let canvas = document.querySelector("#canvas");
